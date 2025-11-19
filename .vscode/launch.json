@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug scanner",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/incompleted/scanner.exe",
+            "args": ["${workspaceFolder}/test/example1.kpl"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe"
+        }
+    ]
+}
